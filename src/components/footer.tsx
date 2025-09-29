@@ -14,7 +14,7 @@ const Footer = () => {
 
           {/* Logo Image */}
           <img
-            src="/path-to-your-logo.png"
+            src="/Logo.svg"
             alt="Gen-Z for Christ Logo"
             className="w-16 h-auto"
           />
