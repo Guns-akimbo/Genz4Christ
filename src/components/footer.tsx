@@ -1,61 +1,100 @@
-import { HiCheckCircle } from "react-icons/hi";
-import { footerLinks } from "../utils";
+"use client";
+
+import { FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-white text-black px-6 py-10 border-t-4 border-gray-800 mt-7" >
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-        <div className="space-y-4 text-black">
-          <div className="flex items-center space-x-2">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
-            <div className="w-3 h-3 bg-[#e68f2d] rounded-full"></div>
-            <div className="w-3 h-3 bg-[#c2beba] rounded-full"></div>
-          </div>
-          <h2 className="font-bold text-lg text-[#FF6000]">Gen Z for Christ</h2>
-          <p>
-            Email: <span className="">hello@genz.com</span>
-          </p>
-          <p>
-            Phone Number: <span className="">+1 (201) 895–3801</span>
-          </p>
-        </div>
-
-        <div className="space-y-4 text-left md:text-right w-full md:w-auto">
-          <h3 className="text-lg font-semibold text-[#FF6000]">
-            Be Part of the Movement
+    <footer className="w-full bg-white text-black px-6 md:px-12 py-10 border-t mt-7">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        {/* Left Section */}
+        <div className="space-y-4">
+          <h3 className="text-[#FF6000] font-semibold leading-snug">
+            Giving Youth Everywhere the Opportunity to be Followers of Jesus Christ
           </h3>
-          <div className="flex flex-col sm:flex-row gap-3 sm:justify-end">
-            <button className="bg-[#FF6000] text-white px-4 py-2 rounded-full font-semibold">
-              Contact us
-            </button>
-            <button className="border border-gray-400 text-black px-4 py-2 rounded-full font-semibold">
-            Become a Sponsor
-            </button>
+
+          {/* Logo Image */}
+          <img
+            src="/path-to-your-logo.png"
+            alt="Gen-Z for Christ Logo"
+            className="w-16 h-auto"
+          />
+
+          <p className="font-bold">Gen-Z for Christ</p>
+          <a href="#" className="text-sm hover:underline">privacy policy</a>
+        </div>
+
+        {/* Middle Section */}
+        <div className="space-y-2 text-sm">
+          <a href="#" className="hover:underline block">Who we are</a>
+          <a href="#" className="hover:underline block">Get Involved</a>
+          <a href="#" className="hover:underline block">Share your Gen-Z Story</a>
+          <a href="#" className="hover:underline block">Contact us</a>
+          <a href="#" className="hover:underline block">Vision</a>
+          <a href="#" className="hover:underline block">Mission</a>
+          <a href="#" className="hover:underline block">Become a Sponsor</a>
+        </div>
+
+        {/* Right Section */}
+        <div className="space-y-3 text-sm">
+          <a href="mailto:hello@genz.com" className="hover:underline block">
+            Email: <span className="font-medium">hello@genz.com</span>
+          </a>
+          <a href="tel:+12018953801" className="hover:underline block">
+            Phone number: <span className="font-medium">+1 (201) 895 3801</span>
+          </a>
+          <a href="#" className="hover:underline block">Share your Gen-Z Story</a>
+          <p>
+            Location: <span className="font-medium">Lekki Lagos, Nigeria</span>
+          </p>
+
+          <h3 className="text-[#FF6000] font-semibold pt-2">Be Part of the Movement</h3>
+          <div className="flex flex-wrap gap-3 text-sm">
+            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+              <FaFacebook /> Facebook
+            </a>
+            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+              <FaTiktok /> TikTok
+            </a>
+            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+              <FaYoutube /> YouTube
+            </a>
+            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+              <FaInstagram /> Instagram
+            </a>
+            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+              <FaLinkedin /> LinkedIn
+            </a>
           </div>
         </div>
       </div>
 
-      <div className="border-t border-[black] my-6"></div>
-
-      <div className="flex flex-col gap-6 md:flex-row md:justify-between items-start md:items-center">
-        <p className="text-sm flex items-center gap-2 text-black">
-          <HiCheckCircle className="text-lg text-[#FF6000]" /> Giving Youth
-          Everywhere the Opportunity to be Followers of Jesus Christ
-        </p>
-
-        <div className="flex flex-wrap gap-3">
-          {footerLinks.map((link, index) => (
-            <p
-              key={index}
-              className="flex items-center gap-2 text-sm border px-3 py-1 rounded-2xl cursor-pointer text-[black]"
+      {/* Newsletter Section */}
+      <div className="mt-10">
+        <div className="bg-[#FF6000] text-white flex flex-col md:flex-row items-center justify-between gap-4 px-6 py-4 rounded-lg">
+          <p className="text-sm font-medium">
+            Stay up to date on all things Gen-Z for Christ with the eNewsletter
+          </p>
+          <div className="flex items-center bg-white rounded-md overflow-hidden w-full md:w-1/3">
+            <input
+              type="email"
+              placeholder="Email Address"
+              className="px-3 py-2 flex-1 outline-none text-black"
+            />
+            <a
+              href="#"
+              className="bg-[#FF6000] px-4 py-2 font-bold text-white hover:opacity-90"
             >
-              <link.icon />
-              {link.label}
-            </p>
-          ))}
+              →
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+
+      {/* Copyright */}
+      <div className="mt-6 text-center text-sm text-gray-600">
+        © 2025 Gen-Z for Christ
+      </div>
+    </footer>
   );
 };
 
