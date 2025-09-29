@@ -5,7 +5,7 @@ const HeroSection = () => {
       <div className="w-[95%] h-[90vh] rounded-xl relative bg-[url('/genzhome2.jpg')] bg-cover bg-center flex items-center">
         
         {/* Orange Overlay with Text */}
-        <div className="bg-orange-500/80 text-white pl-20 pt-10 pb-10 pr-10 md:p-12 rounded-lg max-w-2xl">
+        <div className="bg-orange-500/80 text-white pl-20 pt-10 pb-10 pr-10 md:p-12 rounded-lg max-w-2xl h-[70vh]">
           <h1 className="text-2xl md:text-3xl font-bold mb-4">
             Be the Gen-Z that will change the world
           </h1>
