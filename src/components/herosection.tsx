@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="text-4xl  font-bold mb-10">
             Be the Gen-Z that will change the world
           </h1>
-          <p className="text-2xl md:text-3xl leading-relaxed mb-10">
+          <p className="text-2xl  leading-relaxed mb-10">
             Join a Global movement of young people unashamed of the gospel, driven by a passion to know God and make God known in their lives, career, & across the nations.
           </p>
           <a
