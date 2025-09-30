@@ -1,6 +1,6 @@
 const Sponsor = () => {
   return (
-    <div className="w-full h-[94vh] flex flex-col items-center justify-center">
+    <div id="sponsor" className="w-full h-[94vh] flex flex-col items-center justify-center">
       <div className="w-[95%] h-[80vh] ">
         <div className='w-full h-[100%] bg-[url("/sponsor.jpg")] bg-cover bg-center pt-20 px-4 md:px-16 rounded-xl flex flex-col justify-center '>
           <div className="w-full lg:w-1/2 space-y-4  flex flex-col justify-center items-start ">
