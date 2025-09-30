@@ -1,8 +1,5 @@
-
-
 import { FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
 
 const Footer = () => {
   return (
@@ -22,47 +19,75 @@ const Footer = () => {
           />
 
           <p className="font-bold">Gen-Z for Christ</p>
-          <a href="#" className="text-sm hover:underline">privacy policy</a>
+          <a href="/privacy" className="text-sm hover:underline hover:text-[#FF6000]">
+            Privacy Policy
+          </a>
         </div>
 
         {/* Middle Section */}
         <div className="space-y-6 text-sm">
-          <Link to="/aboutUs" className="hover:underline block hover:text-[#FF6000]">Who we are</Link>
-          <Link to="/getInvolved" className="hover:underline block hover:text-[#FF6000]">Get Involved</Link>
-          <Link to="/share" className="hover:underline block hover:text-[#FF6000]">Share your Gen-Z Story</Link>
-          <Link to="/contactUs" className="hover:underline block hover:text-[#FF6000]">Contact us</Link>
-          <a href="/#vision" className="hover:underline block hover:text-[#FF6000]">Vision</a>
-          <a href="/#mission" className="hover:underline block hover:text-[#FF6000]">Mission</a>
-          <a href="/#sponsor" className="hover:underline block hover:text-[#FF6000]">Become a Sponsor</a>
+          <Link to="/aboutUs" className="block hover:underline hover:text-[#FF6000]">Who we are</Link>
+          <Link to="/getInvolved" className="block hover:underline hover:text-[#FF6000]">Get Involved</Link>
+          <Link to="/share" className="block hover:underline hover:text-[#FF6000]">Share your Gen-Z Story</Link>
+          <Link to="/contactUs" className="block hover:underline hover:text-[#FF6000]">Contact us</Link>
+          <a href="/#vision" className="block hover:underline hover:text-[#FF6000]">Vision</a>
+          <a href="/#mission" className="block hover:underline hover:text-[#FF6000]">Mission</a>
+          <a href="/#sponsor" className="block hover:underline hover:text-[#FF6000]">Become a Sponsor</a>
         </div>
 
         {/* Right Section */}
         <div className="space-y-4 text-sm">
-          <a href="mailto:hello@genz.com" className="hover:underline block hover:text-[#FF6000]">
+          <a href="mailto:hello@genz.com" className="block hover:underline hover:text-[#FF6000]">
             Email: <span className="font-medium">hello@genz.com</span>
           </a>
-          <a href="tel:+12018953801" className="hover:underline block hover:text-[#FF6000]">
+          <a href="tel:+12018953801" className="block hover:underline hover:text-[#FF6000]">
             Phone number: <span className="font-medium">+1 (201) 895 3801</span>
           </a>
+          <Link to="/share" className="block hover:underline hover:text-[#FF6000]">Share your Gen-Z Story</Link>
           <p>
             Location: <span className="font-medium">Lekki Lagos, Nigeria</span>
           </p>
 
           <h3 className="text-[#FF6000] font-semibold pt-2">Be Part of the Movement</h3>
           <div className="flex flex-wrap gap-3 text-sm">
-            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer hover:text-[#FF6000]"
+            >
               <FaFacebook /> Facebook
             </a>
-            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+            <a
+              href="https://tiktok.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer hover:text-[#FF6000]"
+            >
               <FaTiktok /> TikTok
             </a>
-            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer hover:text-[#FF6000]"
+            >
               <FaYoutube /> YouTube
             </a>
-            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer hover:text-[#FF6000]"
+            >
               <FaInstagram /> Instagram
             </a>
-            <a href="#" className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border px-3 py-1 rounded-2xl cursor-pointer hover:text-[#FF6000]"
+            >
               <FaLinkedin /> LinkedIn
             </a>
           </div>
@@ -75,19 +100,19 @@ const Footer = () => {
           <p className="text-sm font-medium">
             Stay up to date on all things Gen-Z for Christ with the eNewsletter
           </p>
-          <div className="flex items-center bg-white rounded-md overflow-hidden w-full md:w-1/3">
+          <form className="flex items-center bg-white rounded-md overflow-hidden w-full md:w-1/3">
             <input
               type="email"
               placeholder="Email Address"
               className="px-3 py-2 flex-1 outline-none text-black"
             />
-            <a
-              href="#"
+            <button
+              type="submit"
               className="bg-[#FF6000] px-4 py-2 font-bold text-white hover:opacity-90"
             >
               →
-            </a>
-          </div>
+            </button>
+          </form>
         </div>
       </div>
 
