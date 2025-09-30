@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         {/* Middle Section */}
-        <div className="space-y-2 text-sm">
+        <div className="space-y-6 text-sm">
           <a href="#" className="hover:underline block">Who we are</a>
           <a href="#" className="hover:underline block">Get Involved</a>
           <a href="#" className="hover:underline block">Share your Gen-Z Story</a>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section */}
-        <div className="space-y-3 text-sm">
+        <div className="space-y-4 text-sm">
           <a href="mailto:hello@genz.com" className="hover:underline block">
             Email: <span className="font-medium">hello@genz.com</span>
           </a>
