@@ -1,5 +1,3 @@
-
-
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -18,14 +16,13 @@ const HeroSection = () => {
             Join a Global movement of young people unashamed of the gospel, driven by a passion to know God and make God known in their lives, career, & across the nations.
           </p>
 
-          <link
-            to="aboutUs"
+          <Link
+            to="/aboutUs"
             className="underline text-base sm:text-lg md:text-xl font-semibold hover:text-gray-200 transition"
           >
             Find Out More
-          </link>
+          </Link>
         </div>
-
 
       </div>
     </div>
@@ -33,4 +30,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-

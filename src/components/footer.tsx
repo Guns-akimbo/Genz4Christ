@@ -44,7 +44,6 @@ const Footer = () => {
           <a href="tel:+12018953801" className="hover:underline block hover:text-[#FF6000]">
             Phone number: <span className="font-medium">+1 (201) 895 3801</span>
           </a>
-          <a href="#" className="hover:underline block">Share your Gen-Z Story</a>
           <p>
             Location: <span className="font-medium">Lekki Lagos, Nigeria</span>
           </p>
