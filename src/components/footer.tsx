@@ -29,8 +29,8 @@ const Footer = () => {
         <div className="space-y-6 text-sm">
           <Link to="/aboutUs" className="hover:underline block">Who we are</Link>
           <Link to="/" className="hover:underline block">Get Involved</Link>
-          <Link to="/share" className="hover:underline block">Share your Gen-Z Story</Link>
-          <Link to="/contact" className="hover:underline block">Contact us</Link>
+          <Link to="/" className="hover:underline block">Share your Gen-Z Story</Link>
+          <Link to="/" className="hover:underline block">Contact us</Link>
           <a href="/#vision" className="hover:underline block">Vision</a>
           <a href="/#mission" className="hover:underline block">Mission</a>
           <a href="/#sponsor" className="hover:underline block">Become a Sponsor</a>
