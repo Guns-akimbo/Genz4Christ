@@ -1,4 +1,4 @@
-"use client";
+
 
 import { FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -27,21 +27,21 @@ const Footer = () => {
 
         {/* Middle Section */}
         <div className="space-y-6 text-sm">
-          <Link to="/aboutUs" className="hover:underline block">Who we are</Link>
-          <Link to="" className="hover:underline block">Get Involved</Link>
-          <Link to="" className="hover:underline block">Share your Gen-Z Story</Link>
-          <Link to="" className="hover:underline block">Contact us</Link>
-          <a href="#vision" className="hover:underline block">Vision</a>
-          <a href="#mission" className="hover:underline block">Mission</a>
-          <a href="#sponsor" className="hover:underline block">Become a Sponsor</a>
+          <Link to="/aboutUs" className="hover:underline block hover:text-[#FF6000]">Who we are</Link>
+          <Link to="/getInvolved" className="hover:underline block hover:text-[#FF6000]">Get Involved</Link>
+          <Link to="/share" className="hover:underline block hover:text-[#FF6000]">Share your Gen-Z Story</Link>
+          <Link to="/contactUs" className="hover:underline block hover:text-[#FF6000]">Contact us</Link>
+          <a href="/#vision" className="hover:underline block hover:text-[#FF6000]">Vision</a>
+          <a href="/#mission" className="hover:underline block hover:text-[#FF6000]">Mission</a>
+          <a href="/#sponsor" className="hover:underline block hover:text-[#FF6000]">Become a Sponsor</a>
         </div>
 
         {/* Right Section */}
         <div className="space-y-4 text-sm">
-          <a href="mailto:hello@genz.com" className="hover:underline block">
+          <a href="mailto:hello@genz.com" className="hover:underline block hover:text-[#FF6000]">
             Email: <span className="font-medium">hello@genz.com</span>
           </a>
-          <a href="tel:+12018953801" className="hover:underline block">
+          <a href="tel:+12018953801" className="hover:underline block hover:text-[#FF6000]">
             Phone number: <span className="font-medium">+1 (201) 895 3801</span>
           </a>
           <a href="#" className="hover:underline block">Share your Gen-Z Story</a>
