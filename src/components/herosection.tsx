@@ -6,7 +6,7 @@ const HeroSection = () => {
         
         {/* Orange Overlay with Text */}
         <div className="bg-orange-500/80 text-white pl-20 pt-10 pb-10 pr-10 md:p-12 rounded-lg max-w-2xl h-[70vh]">
-          <h1 className="text-4xl md:text-3xl font-bold mb-10">
+          <h1 className="text-4xl  font-bold mb-10">
             Be the Gen-Z that will change the world
           </h1>
           <p className="text-2xl md:text-3xl leading-relaxed mb-10">

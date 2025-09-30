@@ -4,11 +4,11 @@ import { FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaLinkedin } from "react-
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white text-black px-6 md:px-12 py-10 border-t mt-7">
+    <footer className="w-full bg-white text-black px-6 md:px-12 py-10 mt-8">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Left Section */}
         <div className="space-y-4">
-          <h3 className="text-[#FF6000] font-semibold leading-snug">
+          <h3 className="text-[#FF6000] text-2xl font-semibold leading-snug">
             Giving Youth Everywhere the Opportunity to be Followers of Jesus Christ
           </h3>
 
