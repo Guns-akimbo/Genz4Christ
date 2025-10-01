@@ -8,7 +8,7 @@ const teamMembers = [
   },
   {
     name: "Emma Udoh",
-    role: "Head of Content Creation",
+    role: "Head of Content Division",
     description:
       "My goal is to create content that speaks life and truth, helping young people see Christianity as a vibrant, everyday lifestyle rooted in purpose and love for Christ.",
     image: "/team2.jpg",
