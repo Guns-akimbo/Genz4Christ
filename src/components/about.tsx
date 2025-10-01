@@ -1,12 +1,10 @@
-
-
 const teamMembers = [
   {
     name: "Peace Akintola",
     role: "Project Director",
     description:
       "She passionately drives projects forward by coordinating tasks, managing timelines, and ensuring goals are achieved efficiently.",
-    image: "/team1.jpg", // replace with actual image path
+    image: "/team1.jpg",
   },
   {
     name: "Emma Udoh",
@@ -31,7 +29,7 @@ const teamMembers = [
   },
 ];
 
-const AboutUs: React.FC = () => {
+const AboutUs = () => {
   return (
     <section className="w-full bg-white text-gray-800 px-6 md:px-20 py-16">
       {/* About Us Section */}
@@ -54,7 +52,9 @@ const AboutUs: React.FC = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row items-center gap-6"
+              className={`flex flex-col md:flex-row items-center gap-6 ${
+                index % 2 === 1 ? "md:flex-row-reverse" : ""
+              }`}
             >
               {/* Image */}
               <img
@@ -66,7 +66,7 @@ const AboutUs: React.FC = () => {
               {/* Text */}
               <div>
                 <h4 className="text-lg font-semibold text-gray-900">
-                  {member.name}{" "}
+                  {member.name}
                   <span className="block text-sm text-orange-500">
                     {member.role}
                   </span>
