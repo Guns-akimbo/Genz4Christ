@@ -34,10 +34,10 @@ const AboutUs = () => {
     <section className="w-full bg-white text-gray-800 px-6 md:px-20 py-16">
       {/* About Us Section */}
       <div className="text-center mb-12 pt-8">
-        <h2 className="text-3xl md:text-7xl font-bold text-gray-900">
-          About <span className="text-orange-700">Us</span>
+        <h2 className="text-3xl md:text-6xl font-bold text-gray-900">
+          About <span className="text-orange-500">Us</span>
         </h2>
-        <p className="mt-3 text-3xl text-gray-900 max-w-2xl mx-auto">
+        <p className="mt-3 text-2xl text-gray-900 max-w-2xl mx-auto">
           We are driven by a passion to raise young ambassadors who will be
           committed to impactful service.
         </p>
@@ -45,7 +45,7 @@ const AboutUs = () => {
 
       {/* Meet The Team */}
       <div>
-        <h3 className="text-xl md:text-4xl font-semibold text-orange-900 mb-8">
+        <h3 className="text-xl md:text-4xl font-semibold text-orange-600 mb-8">
           Meet The Team
         </h3>
         <div className="grid gap-10">
