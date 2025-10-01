@@ -3,28 +3,28 @@ const teamMembers = [
     name: "Peace Akintola",
     role: "Project Director",
     description:
-      "She passionately drives projects forward by coordinating tasks, managing timelines, and ensuring goals are achieved efficiently.",
+      "My passion is to lead and inspire a generation to live boldly for Christ, empowering young people to stand firm in their faith and transform the world around them.",
     image: "/team1.jpg",
   },
   {
     name: "Emma Udoh",
     role: "Head of Content Creation",
     description:
-      "My goal is to create content that inspires. We believe in telling stories that connect with people and push them to act.",
+      "My goal is to create content that speaks life and truth, helping young people see Christianity as a vibrant, everyday lifestyle rooted in purpose and love for Christ.",
     image: "/team2.jpg",
   },
   {
-    name: "Chucks Okoye",
+    name: "Charles Olatuyi",
     role: "Head of Design Division",
     description:
-      "Design is not just visuals, it’s about experience. I ensure every project looks stunning and functions beautifully.",
+      "Through design, I aim to visually express the beauty of a Christ-centered life, making faith tangible and inspiring young people to live creatively for God.",
     image: "/team3.jpg",
   },
   {
-    name: "Edison Udoh",
-    role: "Head of Content Division",
+    name: "Peace Olaitan",
+    role: "Operations Manager",
     description:
-      "With a deep passion for content, I make sure our ideas are transformed into engaging and impactful work.",
+      "I’m committed to organizing and equipping our team to bring our vision to life, ensuring that every detail serves our mission of guiding young people to Christ.",
     image: "/team4.jpg",
   },
 ];
