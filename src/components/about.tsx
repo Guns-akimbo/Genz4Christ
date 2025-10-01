@@ -37,7 +37,7 @@ const AboutUs = () => {
         <h2 className="text-3xl md:text-6xl font-bold text-gray-900">
           About <span className="text-orange-500">Us</span>
         </h2>
-        <p className="mt-3 text-2xl text-gray-900 max-w-2xl mx-auto">
+        <p className="mt-3 text-xl md:text-2xl text-gray-900 max-w-2xl mx-auto">
           We are driven by a passion to raise young ambassadors who will be
           committed to impactful service.
         </p>
