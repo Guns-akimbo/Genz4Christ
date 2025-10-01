@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import about from "../components/about";
+import About from "../components/about";
 import Footer from "../components/footer";
 
 const AboutUs = () => {
