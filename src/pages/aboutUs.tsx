@@ -1,12 +1,12 @@
 import Header from "../components/Header";
-import HeroSection from "../components/herosection";
+import about from "../components/about";
 import Footer from "../components/footer";
 
 const AboutUs = () => {
   return (
     <div>
       <Header />
-      <HeroSection />
+      <about />
       <Footer />
     </div>
   )
