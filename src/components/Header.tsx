@@ -52,7 +52,7 @@ const Header = () => {
             <li
               key={index}
               onClick={() => handleNavigate(item.path)}
-              className=" cursor-pointer px-4 "
+              className={` cursor-pointer px-4 ${item.path === window.location.pathname ? "text-[#FF6000]" : "text-black"}`}
             >
               {item.label}
             </li>

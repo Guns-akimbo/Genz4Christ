@@ -1,5 +1,12 @@
-import { FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTiktok,
+  FaYoutube,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
+import {  navItems } from "../utils";
 
 const Footer = () => {
   return (
@@ -7,8 +14,9 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Left Section */}
         <div className="space-y-4">
-          <h3 className="text-[#FF6000] text-2xl font-semibold leading-snug">
-            Giving Youth Everywhere the Opportunity to be Followers of Jesus Christ
+          <h3 className="text-[#FF6000] text-2xl font-semibold leading-snug hidden md:block">
+            Giving Youth Everywhere the Opportunity to be Followers of Jesus
+            Christ
           </h3>
 
           {/* Logo Image */}
@@ -19,36 +27,54 @@ const Footer = () => {
           />
 
           <p className="font-bold">Gen-Z for Christ</p>
-          <a href="/privacy" className="text-sm hover:underline hover:text-[#FF6000]">
+          <a
+            href="/privacy"
+            className="text-sm hover:underline hover:text-[#FF6000]"
+          >
             Privacy Policy
           </a>
         </div>
 
         {/* Middle Section */}
         <div className="space-y-6 text-sm">
-          <Link to="/aboutUs" className="block hover:underline hover:text-[#FF6000]">Who we are</Link>
-          <Link to="/getInvolved" className="block hover:underline hover:text-[#FF6000]">Get Involved</Link>
-          <Link to="/share" className="block hover:underline hover:text-[#FF6000]">Share your Gen-Z Story</Link>
-          <Link to="/contactUs" className="block hover:underline hover:text-[#FF6000]">Contact us</Link>
-          <a href="/#vision" className="block hover:underline hover:text-[#FF6000]">Vision</a>
-          <a href="/#mission" className="block hover:underline hover:text-[#FF6000]">Mission</a>
-          <a href="/#sponsor" className="block hover:underline hover:text-[#FF6000]">Become a Sponsor</a>
+          {navItems.map((link, index) => (
+            <Link
+              key={index}
+              to={link.path}
+              className="block hover hover:text-[#FF6000]"
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
 
         {/* Right Section */}
         <div className="space-y-4 text-sm">
-          <a href="mailto:hello@genz.com" className="block hover:underline hover:text-[#FF6000]">
+          <a
+            href="mailto:hello@genz.com"
+            className="block hover:underline hover:text-[#FF6000]"
+          >
             Email: <span className="font-medium">hello@genz.com</span>
           </a>
-          <a href="tel:+12018953801" className="block hover:underline hover:text-[#FF6000]">
+          <a
+            href="tel:+12018953801"
+            className="block hover:underline hover:text-[#FF6000]"
+          >
             Phone number: <span className="font-medium">+1 (201) 895 3801</span>
           </a>
-          <Link to="/share" className="block hover:underline hover:text-[#FF6000]">Share your Gen-Z Story</Link>
+          <Link
+            to="/share"
+            className="block hover:underline hover:text-[#FF6000]"
+          >
+            Share your Gen-Z Story
+          </Link>
           <p>
             Location: <span className="font-medium">Lekki Lagos, Nigeria</span>
           </p>
 
-          <h3 className="text-[#FF6000] font-semibold pt-2">Be Part of the Movement</h3>
+          <h3 className="text-[#FF6000] font-semibold pt-2">
+            Be Part of the Movement
+          </h3>
           <div className="flex flex-wrap gap-3 text-sm">
             <a
               href="https://facebook.com"

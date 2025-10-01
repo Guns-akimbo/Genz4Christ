@@ -2,7 +2,7 @@ const Vision = () => {
   return (
     <div id="vision" className="w-full min-h-screen space-y-8 flex flex-col items-center justify-center py-8">
       <div className="w-[95%] max-w-7xl flex items-center justify-center flex-col space-y-8">
-        <section className="w-full flex flex-col lg:flex-row gap-8 lg:gap-20 p-4 items-center justify-center">
+        <section className="w-full flex flex-col lg:flex-row gap-8 lg:gap-20 p-4 items-center justify-between bg--500">
           <div className='w-full lg:w-2/4 h-64 lg:h-96 bg-[url("/vision.jpg")] bg-cover bg-center rounded-xl flex flex-col justify-center '></div>
           <div className="w-full lg:w-1/3 space-y-4 flex flex-col justify-center items-start text-center lg:text-left">
             <h2 className="font-extrabold text-4xl md:text-5xl lg:text-6xl text-[#FF6000]">
@@ -17,7 +17,7 @@ const Vision = () => {
           </div>
         </section>
 
-        <section id="mission" className="w-full flex flex-col lg:flex-row-reverse gap-8 lg:gap-20 p-4 items-center justify-center">
+        <section id="mission" className="w-full flex flex-col lg:flex-row-reverse gap-8 lg:gap-20 p-4 items-center justify-between ">
           <div className='w-full lg:w-2/4 h-64 lg:h-96 bg-[url("/mission.jpg")] bg-cover bg-center rounded-xl flex flex-col justify-center '></div>
           <div className="w-full lg:w-1/3 space-y-4 flex flex-col justify-center items-start text-center lg:text-left">
             <h2 className="font-extrabold text-4xl md:text-5xl lg:text-6xl text-[#FF6000]">

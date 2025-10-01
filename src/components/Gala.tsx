@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const Carousel = () => {
+const Gala = () => {
   const images = [
     "/vision.jpg",
     "/mission.jpg",
@@ -36,10 +36,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="relative w-full max-w-8xl h-[60vh] md:h-[80vh] lg:h-[90vh] mx-auto rounded-lg overflow-hidden  p-2">
-        {/* Main carousel container */}
-        <h1 className="mb-6 text-xl md:text-3xl text-[#FF6000]"> Transforming lives, one moment at a time</h1>
-
+      <div className="relative w-full max-w-8xl h-[60vh] md:h-[80vh] lg:h-[90vh] mx-auto rounded-lg overflow-hidden  p-2 mt-20">
         <div className="relative h-full overflow-hidden rounded-lg">
           {images.map((image, index) => (
             <div
@@ -127,4 +124,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Gala;
