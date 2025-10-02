@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 import Footer from "../components/footer";
 
-const AboutUs = () => {
+const ContactUs = () => {
   return (
     <div>
       <Header />
