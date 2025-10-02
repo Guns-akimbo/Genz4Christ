@@ -84,7 +84,7 @@ export const navItems = [
   { label: "Gallery", path: "/gallery" },
   { label: "Get Involved", path: "/getinvolved" },
   { label: "Share Gen Z Story", path: "/story" },
-  { label: "Contact Us", path: "/contact" },
+  { label: "Contact Us", path: "/contactUs" },
 ];
 
 export const footerLinks = [
