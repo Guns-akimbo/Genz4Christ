@@ -12,4 +12,4 @@ const ContactUs = () => {
   )
 }
 
-export default AboutUs
+export default ContactUs
