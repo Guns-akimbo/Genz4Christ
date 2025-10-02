@@ -27,7 +27,6 @@ const App = () => {
       path: "/story",
       element: <Story />,
     },
-    
   ]);
   return <RouterProvider router={route} />;
 };
