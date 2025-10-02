@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center py-12 px-4">
+    <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center pt-10 py-12 px-4">
       {/* Header Section */}
       <div className="bg-orange-500 text-white text-center px-6 py-6 rounded-xl max-w-3xl w-full mb-10">
         <h1 className="text-3xl font-bold">Contact Us</h1>
