@@ -48,33 +48,35 @@ const AboutUs = () => {
         <h3 className="text-xl md:text-4xl font-semibold text-orange-600 mb-8">
           Meet The Team
         </h3>
-        <div className="grid gap-10">
-          {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className={`flex flex-col md:flex-row items-center gap-6 ${
-                index % 2 === 1 ? "md:flex-row-reverse" : ""
-              }`}
-            >
-              {/* Image */}
-              <img
-                src={member.image}
-                alt={member.name}
-                className="w-48 h-48 object-cover rounded-lg shadow-md"
-              />
+        <div className="px-6 md:px-12 lg:px-20">
+          <div className="grid gap-10">
+            {teamMembers.map((member, index) => (
+              <div
+                key={index}
+                className={`flex flex-col md:flex-row items-center gap-6 ${
+                  index % 2 === 1 ? "md:flex-row-reverse" : ""
+                }`}
+              >
+                {/* Image */}
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-48 h-48 object-cover rounded-lg shadow-md"
+                />
 
-              {/* Text */}
-              <div>
-                <h4 className="text-lg font-semibold text-gray-900">
-                  {member.name}
-                  <span className="block text-sm text-orange-500">
-                    {member.role}
-                  </span>
-                </h4>
-                <p className="mt-3 text-gray-900">{member.description}</p>
+                {/* Text */}
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">
+                    {member.name}
+                    <span className="block text-sm text-orange-500">
+                      {member.role}
+                    </span>
+                  </h4>
+                  <p className="mt-3 text-gray-900">{member.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
