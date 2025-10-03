@@ -61,7 +61,7 @@ const AboutUs = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-48 h-48 object-cover rounded-lg shadow-md"
+                  className="w-68 h-68 object-cover rounded-lg shadow-md"
                 />
 
                 {/* Text */}
