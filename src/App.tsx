@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { createHashRouter, RouterProvider } from "react-router";
 import LandingPage from "./pages/landingpage";
 import AboutUs from "./pages/aboutUs";
 import GetInvolved from "./pages/getInvolved";
@@ -7,7 +7,7 @@ import Story from "./pages/story";
 import ContactUs from "./pages/contactUs";
 
 const App = () => {
-  const route = createBrowserRouter([
+  const route = createHashRouter([
     {
       path: "/",
       element: <LandingPage />,
